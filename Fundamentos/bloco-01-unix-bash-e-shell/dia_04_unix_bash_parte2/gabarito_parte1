@@ -1,0 +1,32 @@
+1. Utilizando ls e cd para chegar até a pasta unix.tests
+2. cat > skilss2.txt   
+Internet
+Unix
+Bach
+Ctrl D para finalizar
+OU
+touch skills2.txt
+echo "Internet" >> skills2.txt
+echo "Unix" >> skills2.txt
+echo "Bash" >> skills2.txt
+
+3. cat >> skills2.txt
+	 sort < skills2.txt
+4. wc -l skill2.txt
+OU
+cat skills2.txt | wc -l
+
+5. sort skills2.txt | head -3 > top_skills.txt
+6. cat > phrases2.txt
+FRASES"
+Ctrl D
+7. grep br phrases.txt | wc -l
+8. grep -v br phrases.txt | wc -l
+9. cat >> phrases2.txt
+ou 
+echo "PAÍS" >> phrases2.txt
+10. cat phrases2.txt countries.txt > bunch_of_things.txt
+11. sort -o bunch_of_things.txt > bunch_of_things.txt
+
+-o: joga esse conteúdo automaticamente em um arquivo
+```

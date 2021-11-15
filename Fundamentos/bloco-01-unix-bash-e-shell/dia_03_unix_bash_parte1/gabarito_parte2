@@ -1,0 +1,16 @@
+1. sup apt install curl
+2. cat countries.txt
+3. less countries.txt  // "barra de espaço" para pular a página e "q" para sair da visualização
+4. less countries.txt // irá aparecer a lista de paíse, é possível digitar
+		/Zambia // Presionar "q" para sair
+5. grep Brazil countries.txt
+6. grep -i brazil countries.txt
+7. grep -iv fox phrases.txt
+8. wc -w phrases.txt
+9. wc -l phrases.txt
+10. touch empty.tbt 
+		touch empty.pdf
+11. ls *
+12. ls *.txt
+13. ls *.txt && ls *.pdf 
+14. man ls

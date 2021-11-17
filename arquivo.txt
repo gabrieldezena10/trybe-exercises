@@ -1,3 +1,5 @@
+trybe-skills-updates
+GitHub
 O que vou aprender na Trybe: 
 Unix
 Bash

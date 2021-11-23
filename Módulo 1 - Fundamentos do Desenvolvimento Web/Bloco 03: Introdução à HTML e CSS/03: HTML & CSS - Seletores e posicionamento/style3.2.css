@@ -47,11 +47,13 @@ div:nth-of-type(1) > h3 {
     font-style: italic
   }
 
+/* 4. Faça a terceira div ser maior que as demais. */
 
   div:nth-last-of-type(3){
       height: 150px;
   }
 
+/* 5. Deixe as tags ímpares <h3> com o texto em itálico. */
 
   div:nth-last-of-type(odd) h3{
       font-style: italic;

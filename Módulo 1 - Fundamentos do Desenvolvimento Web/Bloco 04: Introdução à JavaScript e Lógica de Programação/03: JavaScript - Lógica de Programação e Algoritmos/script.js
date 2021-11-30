@@ -63,7 +63,7 @@ let meioPiramide = (n+1)/2;
 let controleEsquerda = meioPiramide;
 let controleDireita = meioPiramide;
 
-
+//Loop para imprimir as linhas seguintes
 // meio da piramide é a posição do centro da piramide
 for (let index =0; index < meioPiramide; index += 1){
 

@@ -83,5 +83,30 @@
 // }
 
 //exercicio7
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
+// let menorValor = 110;
+
+// for (let index = 0; index <numbers.length; index +=1){
+//     if (numbers[index]<menorValor){
+//         menorValor = numbers[index];
+//     }
+// }
+// console.log(menorValor);
+
+//exercicio8
+
+// let array = []
+// for (let index=1; index<=25; index +=1){
+//     array.push(index)
+// }
+// console.log(array);
+
+
+//exercicio9
+
+let array = []
+for (let index=1; index<=25; index +=1){
+    array.push(index/2)
+}
+console.log(array);

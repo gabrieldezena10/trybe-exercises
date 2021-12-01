@@ -1,3 +1,60 @@
+//Exercicios
+//1- O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. crie um algoritmo que retorne o fatorial de 10.
+// let n = 10;
+// let fator = 1;
+// for (let index = n; index >0 ; index -=1){
+//     fator = fator*index
+// }
+// console.log(fator);
+
+//2- Agora, desenvolva um algoritmo que é capaz de inverter uma palavra. Por exemplo, a palavra "banana" seria invertida para "ananab". Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
+
+// let word = 'tryber';
+// let palavraReversa ='';
+
+// for (let index = 0; index<word.length; index +=1){
+//     palavraReversa = palavraReversa + word[(word.length)-1 - index];
+//     console.log(palavraReversa);
+// }
+// console.log(palavraReversa);
+
+//3 - Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let palavraMaior='';
+// let palavraMenor='xxxxxxxxxx';
+
+//   for(let index = 0; index<array.length; index +=1){
+//     if(array[index].length > palavraMaior.length){
+//       palavraMaior = array[index];
+//     }
+
+//     if(array[index].length < palavraMenor.length){
+//       palavraMenor = array[index];
+//   }
+//   }
+// console.log('A maior palavra é: '+ palavraMaior);
+// console.log('A menor palavra é: '+ palavraMenor);
+
+
+//4- Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
+// let numPrimo = 0;
+
+// for (let numAtual = 0; numAtual <=50; numAtual +=1){
+//   let primo = true;
+//   for (let divisor = 2; divisor< numAtual; divisor+=1){
+//     if (numAtual%divisor === 0){
+//       primo = false;
+//     }
+//   }
+//   if (primo === true){
+//     numPrimo = numAtual;
+//     console.log(numPrimo);
+
+//   }
+// }
+// console.log(numPrimo);
+
+//Bônus
 //exercicio 1
 //1- Para o primeiro exercício de hoje, faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de asteriscos de lado de tamanho n . Por exemplo:
 
@@ -123,20 +180,20 @@
 Um número primo é um número que só é divisível por 1 e por ele mesmo, ou seja, a divisão dele com quaisquer outros números dá resto diferente de zero.
 Dica: você vai precisar de fazer um loop que vá de 0 ao número definido; Além disso, vai precisar de fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.*/
 
-let n = 73;
-let numeroDivisores = 0
-let array = [];
+// let n = 12;
+// let numeroDivisores = 0
+// let array = [];
 
-for (let index = 1; index<=n; index+=1){
-  if (n % index ===0){
-    numeroDivisores +=1;
-    array.push(index);
-  }
-}
-console.log(array);
+// for (let index = 1; index<=n; index+=1){
+//   if (n % index ===0){
+//     numeroDivisores +=1;
+//     array.push(index);
+//   }
+// }
+// console.log(array);
 
-if (numeroDivisores ===2){
-  console.log("O número", n ,"é primo");
-} else {
-  console.log("O número", n , "não é primo");
-}
+// if (numeroDivisores ===2){
+//   console.log("O número", n ,"é primo");
+// } else {
+//   console.log("O número", n , "não é primo");
+// }

@@ -67,8 +67,6 @@ const authorWith3DotsOnName = books.filter((book) => (book.author.name[1] === '.
 
 console.log(authorWith3DotsOnName);
 
-
-
 //Gabarito
 function authorWith3DotsOnName2() {
   return books.find((book) => (
@@ -78,3 +76,5 @@ function authorWith3DotsOnName2() {
 }
 
 console.log(authorWith3DotsOnName2());
+
+//O Senhor dos Anéis

@@ -78,3 +78,13 @@ function fantasyOrScienceFictionAuthors2() {
 }
 
 console.log(fantasyOrScienceFictionAuthors2())
+
+/*
+[
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien'
+]
+
+*/

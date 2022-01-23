@@ -13,3 +13,10 @@ function flatten() {
 
 console.log(flatten());
 
+/*
+[
+  '1',  '2', '3',
+  true, 4,   5,
+  6
+]
+*/

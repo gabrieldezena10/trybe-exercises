@@ -8,4 +8,14 @@ const names = [
 
 function containsA() {
   // escreva seu código aqui
-}
+  return names.reduce((acc, item) =>
+    acc + item.split('').reduce((acc2, letter)=> {
+      if (letter ==='a' || letter === 'A') {
+        return acc2 + 1;
+      }
+      return acc2
+    },0),0);
+};
+
+console.log(containsA());
+//20

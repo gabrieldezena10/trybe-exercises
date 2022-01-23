@@ -75,8 +75,9 @@ const estudantes = [
 // Mostrar na tela um relatório que diz em qual matéria o estudante foi melhor. Você usará tanto o map quanto, dentro dele, o reduce !
 
 const getBestClass = (acc, materia) => {
-  if (acc.nota > materia.nota) 
-  return acc;
+  if (acc.nota > materia.nota) {
+    return acc;
+  }
   return materia;
 };
 
@@ -85,3 +86,14 @@ const reportBetter = (students) => students.map((student) => ({
   materia: student.materias.reduce(getBestClass).name}));
 
 console.log(reportBetter(estudantes));
+
+/*
+[
+  { name: 'Jorge', materia: 'Português' },
+  { name: 'Mario', materia: 'Biologia' },
+  { name: 'Jorge', materia: 'Português' },
+  { name: 'Maria', materia: 'Química' },
+  { name: 'Natalia', materia: 'Português' },
+  { name: 'Wilson', materia: 'Português' }
+]
+*/

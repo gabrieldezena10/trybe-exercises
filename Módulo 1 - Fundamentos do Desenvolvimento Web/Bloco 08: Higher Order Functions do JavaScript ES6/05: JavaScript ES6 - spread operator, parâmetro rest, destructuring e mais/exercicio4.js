@@ -29,3 +29,8 @@ const people = [
 ];
 
 // escreva filterPeople abaixo
+function filterPeople () {
+  return people.filter(({nationality, bornIn}) => nationality === 'Australian' && bornIn > 2000);
+}
+console.log(filterPeople());
+//[ { name: 'Harry', bornIn: 2008, nationality: 'Australian' } ]

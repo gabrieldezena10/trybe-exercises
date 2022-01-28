@@ -76,7 +76,7 @@ function smallerName() {
   // Variável nameBook que receberá o valor do menor nome;
   return nameBook;
 }
-console.log(smallerName());
+console.log(smallerName()); //Duna
 
 /*
 Declaramos a variável nameBook sem nenhum valor;

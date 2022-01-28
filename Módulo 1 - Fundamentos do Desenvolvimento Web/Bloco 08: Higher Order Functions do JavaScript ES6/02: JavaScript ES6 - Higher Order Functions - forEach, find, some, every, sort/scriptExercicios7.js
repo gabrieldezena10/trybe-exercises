@@ -72,4 +72,4 @@ function authorUnique() {
       && (bookSome.author.name !== book.author.name)));
 }
 
-console.log(authorUnique());
+console.log(authorUnique()); //false
